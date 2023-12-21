@@ -1,0 +1,4 @@
+https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+https://www.w3schools.com/howto/howto_css_image_responsive.asp
+https://stackoverflow.com/questions/48501285/make-border-width-responsive

@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* margin: 0 0.5rem; */
+}
+
+/* .box:first-child {
+  width: 400px;
+  height: 400px;
+}
+
+.box:last-child {
+  width: 100px;
+  height: 100px;
+}
+
+.box: nth-child(3) {
+  width: 600px;
+  height: 600px;
+} */
+
+.box:nth-of-type(odd) {
+  width: 400px;
+  height: 400px;
+}
+
+.box1 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: violet;
+}
+
+.box3 {
+  background-color: pink;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: turquoise;
+}
+
+.box6 {
+  background-color: rosybrown;
+}

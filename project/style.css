@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #faf3e0;
+}
+
+header {
+  text-align: center;
+  background: rgb(113, 241, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(113, 241, 236, 1) 52%,
+    rgba(250, 243, 224, 1) 99%
+  );
+}
+
+.title {
+  color: #0b0b0b;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-around;
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar a {
+  color: #0b0b0b;
+  font-family: "Noto Serif", serif;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* hr {
+  border: none;
+  height: 2.5rem;
+  border-top: 3px solid #f1e3bd;
+} */
+
+hr {
+  border: none;
+  height: 20px;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+}
+
+.container h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: transparent;
+}
+
+.slide:nth-child(2) {
+  background: transparent;
+}
+
+.slide:nth-child(3) {
+  background: transparent;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+  60% {
+    margin-left: -1456px;
+  }
+  70% {
+    margin-left: -1456px;
+  }
+}
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 12s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: transparent;
+}
+
+.slide:nth-child(2) {
+  background: transparent;
+}
+
+.slide:nth-child(3) {
+  background: transparent;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+  60% {
+    margin-left: -1456px;
+  }
+  70% {
+    margin-left: -1456px;
+  }
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section2 .title2 h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+#section2 .title2 h4 {
+  margin: 1.5rem 5rem 7rem 5rem;
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  font-size: 1.15rem;
+}
+
+.winter1 h3 {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding-bottom: 1.25rem;
+}
+
+.winter1 p {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  max-width: 55rem;
+}
+
+.winter2 h3 {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1.5rem;
+  padding-bottom: 1.25rem;
+}
+
+.winter2 p {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  max-width: 55rem;
+}
+
+.winter3 h3 {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1.5rem;
+  padding-bottom: 1.25rem;
+}
+
+.winter3 p {
+  margin-left: 10rem;
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  max-width: 55rem;
+}
+
+/* .container2 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 6fr 2fr;
+  row-gap: 11rem;
+} */
+
+.img1 .boots {
+  width: 320px;
+  opacity: 1;
+}
+.img1:hover {
+  opacity: 0.5;
+}
+
+.img2 .outerwear {
+  width: 320px;
+  opacity: 1;
+  margin-left: 10rem;
+}
+.img2:hover {
+  opacity: 0.5;
+}
+
+.img3 .accessories {
+  width: 320px;
+  opacity: 1;
+}
+.img3:hover {
+  opacity: 0.5;
+}

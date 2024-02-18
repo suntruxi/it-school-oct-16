@@ -8,3 +8,11 @@ console.log(students.length);
 console.log(students[2]);
 
 console.log(studentGrades[studentGrades.length - 1]);
+
+for (let index = 0; index <= studentGrades.length - 1; index++) {
+  console.log(studentGrades[index]);
+}
+
+for (let grade in studentGrades) {
+  console.log(grade);
+}
